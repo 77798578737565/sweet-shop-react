@@ -1,0 +1,89 @@
+/*
+.about-hero {
+  height: 50vh;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.85;
+}*/
+.about-hero {
+  height: 60vh;
+  background-image: url('./assets/cake.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Heading */
+.about-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* improves readability */
+}
+
+/* Subtitle */
+.about-hero p {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+/* CONTENT */
+.about-content {
+  padding: 80px 12%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
